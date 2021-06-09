@@ -5,7 +5,7 @@
   <div class="user">
     <div class="tech">
       <h2> Academic Experience </h2>
-     <img src="/assets/img/academ.png"
+     <img src="{{ "/assets/img/academ.png" | prepend: site.baseurl }}"
        alt=""
        width="400"
        height="341">
@@ -13,7 +13,8 @@
     </div>
     <div class="tech">
       <h2>Teamwork</h2>
-      <img src="/assets/img/teamwork.jpeg"
+      <img 
+           src="{{ "/assets/img/teamwork.jpeg" | prepend: site.baseurl }}"
        alt=""
        width="400"
        height="341">
@@ -22,7 +23,7 @@ Development <a href="">See more here</a>  </p>
     </div>
     <div class="tech">
       <h2>Management</h2>
-       <img src="/assets/img/management.jpeg"
+       <img src="{{ "/assets/img/management.jpeg" | prepend: site.baseurl }}"
        alt=""
        width="400"
        height="341">
